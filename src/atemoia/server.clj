@@ -111,6 +111,9 @@
     requiring-resolve
     (apply [:atemoia]))
   (-main))
-
+ 
 (comment
-  (dev-main))
+  (dev-main)
+  ;; => Syntax error compiling at (c:\Users\georg\repos\sb1u-clicker\src\atemoia\server.clj:116:3).
+  ;;    Unable to resolve symbol: dev-main in this context  
+  )
